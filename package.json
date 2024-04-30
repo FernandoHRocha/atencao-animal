@@ -1,0 +1,29 @@
+{
+  "name": "atencao-animal",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"tsc -w\" \"vite --port 8000\"",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FernandoHRocha/valida-projeto-extensao.git"
+  },
+  "author": "Fernando H. Rocha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernandoHRocha/valida-projeto-extensao/issues"
+  },
+  "dependencies": {
+    "three": "^0.164.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.164.0",
+    "concurrently": "^8.2.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
